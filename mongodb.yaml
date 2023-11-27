@@ -1,5 +1,5 @@
 - name: Install mongodb component
-  hosts: mongodb
+  hosts: mongodb.mnyeruva.online
   become: yes
   tasks:
   - name: copy mongo repo to yum.repos.d
@@ -23,5 +23,5 @@
   - name: restart mongodb
     ansible.builtin.service:
       name: mongod
-      state: restarted   
+      state: restarted  
 
