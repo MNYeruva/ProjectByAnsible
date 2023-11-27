@@ -1,4 +1,0 @@
-- name: MFRM Setup
-  hosts: "{{HOSTS}}"
-  roles:
-    - "{{ROLE_NAME}}"
