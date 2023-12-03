@@ -6,3 +6,6 @@ catalogue.mnyeruva.online
 
 [web]
 web.mnyeruva.online
+
+[redis]
+redis.mnyeruva.online
