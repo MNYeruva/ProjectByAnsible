@@ -9,3 +9,9 @@ web.mnyeruva.online
 
 [redis]
 redis.mnyeruva.online
+
+[user]
+user.mnyeruva.online
+
+[cart]
+cart.mnyeruva.online
