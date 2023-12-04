@@ -2,7 +2,7 @@
   hosts: shipping
   become: yes
   tasks:
-  - name: install maven
+  - name: install Maven
     ansible.builtin.yum:
     name: mavan
     state: installed
