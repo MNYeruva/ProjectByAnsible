@@ -21,3 +21,9 @@ mysql.mnyeruva.online
 
 [shipping]
 shipping.mnyeruva.online
+
+[rabbitmq]
+rabbitmq.mnyeruva.online
+
+[payment]
+payment.mnyeruva.online
