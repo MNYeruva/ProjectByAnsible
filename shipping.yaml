@@ -4,8 +4,8 @@
   tasks:
   - name: install Maven
     ansible.builtin.yum:
-    name: mavan
-    state: installed
+      name: mavan
+      state: installed
 
   - name: check roboshop user exist or not
     ansible.builtin.command: id roboshop
