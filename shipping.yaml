@@ -54,9 +54,19 @@
       src: shipping.service
       dest: /etc/systemd/system/shipping.service    
 
-  - name: restart catalogue
+  - name: deamon reload
+    ansible.builtin.systemd:
+      daemon_reload: true    
+
+  - name: restart shipping
     ansible.builtin.service:
-      name: catalogue
+      name: shipping
       state: restarted
-      enabled: true          
+      enabled: true     
+
+  - name: install mysql client
+    ansible.builtin.yum:
+      name: mysql
+      state: installed
+
     
